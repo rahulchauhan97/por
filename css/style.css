@@ -148,15 +148,6 @@ div.no-gutters {
     overflow: hidden;
 }
 
-div.socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-div.socials a {
-    padding: 15px;
-}
 
 #card {
     text-align: center;
@@ -185,18 +176,26 @@ div.mx-auto {
     background-color: transparent;
 }
 
-.fa-facebook {
-    color: gold;
+div.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.fa-github {
-    color: gold;
+div.socials a {
+    padding: 6px;
 }
 
-.fa-instagram {
-    color: gold;
+.icon {
+    padding: 9px;
+    border-radius: 10px;
+    color: white;
+    transition: color ease-in .1s;
 }
 
+.icon:hover {
+    color: gold;
+}
 
 /* Projects */
 
@@ -336,6 +335,7 @@ div.row div.card {
     from {
         color: inherit;
     }
+
     to {
         color: transparent;
     }
@@ -351,6 +351,7 @@ div.row div.card {
     .card-title {
         font-size: 1.8em;
     }
+
     #intro-text {
         font-size: 1.2em;
     }
@@ -360,6 +361,7 @@ div.row div.card {
     .card-title {
         font-size: 1.5em;
     }
+
     #intro-text {
         font-size: 1em;
     }
